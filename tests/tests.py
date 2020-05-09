@@ -30,8 +30,8 @@ class PitchTest(unittest.TestCase):
         Set up method that will run before every Test
         '''
 
-        self.user = User(username='nairdaee', password='mutemuas2001',
-                         email='etadriano2@gmail.com.com')
+        self.user = User(username='Kennedy128', password='0711468410',
+                         email='Kennedymbithi12@gmail.com')
         self.new_comment = Comment(
             comment='comment', pitch_id=1, user_id=self.user)
         self.new_pitch = Pitch(id=1, title="Pitch", body='pitches',
